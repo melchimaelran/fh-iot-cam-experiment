@@ -1,0 +1,12 @@
+# Server NodeJS
+packages/server/dist
+packages/server/node_modules
+packages/server/.env
+
+ 
+# Client React
+packages/client/dist
+packages/client/node_modules
+packages/client/.env
+
+
