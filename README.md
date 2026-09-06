@@ -35,11 +35,10 @@ on its own.
 
 ## Screenshots
 
-Connect-camera wizard (client):
-
-| Step 1 — join camera Wi-Fi | Step 2 — find camera IP | Step 3 — send Wi-Fi credentials |
-| --- | --- | --- |
-| ![Step 1: connect to the camera's own Wi-Fi network](docs/screenshots/connect-step1-camera-wifi.png) | ![Step 2: find the camera gateway IP on the hotspot network](docs/screenshots/connect-step2-find-camera-ip.png) | ![Step 3: configure SSID, password and auth type for the target network](docs/screenshots/connect-step3-send-wifi-credentials.png) |
+![](docs/screenshots/screenshot-1.png)
+![](docs/screenshots/screenshot-2.png)
+![](docs/screenshots/screenshot-3.png)
+![](docs/screenshots/screenshot-4.png)
 
 ## Packages
 
