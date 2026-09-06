@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: env.CORS_ORIGIN ?? true,
+    origin: "*",
   }),
 );
 

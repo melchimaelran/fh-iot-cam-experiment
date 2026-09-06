@@ -1,0 +1,2 @@
+streams:
+  camera1: "rtsp://USER:PASSWORD@CAMERA_IP:8554/profile1"

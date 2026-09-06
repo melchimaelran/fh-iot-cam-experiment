@@ -1,12 +1,36 @@
-# Server NodeJS
-packages/server/dist
-packages/server/node_modules
-packages/server/.env
+# ---- Dependencies ----
+node_modules/
+packages/*/node_modules/
 
- 
-# Client React
-packages/client/dist
-packages/client/node_modules
-packages/client/.env
+# ---- Build output ----
+packages/server/dist/
+packages/client/build/
+packages/client/dist/
+packages/client/.react-router/
 
+# ---- Env / secrets ----
+.env
+.env.*
+!.env.example
+*.local
 
+# ---- go2rtc (download per-arch binary + write your own config) ----
+packages/goToRtc/go2rtc_*
+packages/goToRtc/go2rtc
+packages/goToRtc/go2rtc.yaml
+!packages/goToRtc/go2rtc.yaml.example
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~

@@ -9,5 +9,11 @@ export default defineConfig({
   },
   server: {
     port: process.env.VITE_PORT ? parseInt(process.env.VITE_PORT, 10) : 5173,
+    proxy: {
+      "/trpc": {
+        target: process.env.VITE_SERVER_URL ?? "http://127.0.0.1:3000",
+        changeOrigin: true,
+      },
+    },
   },
 });

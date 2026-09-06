@@ -53,7 +53,7 @@ export default function App() {
     trpc.createClient({
       links: [
         httpBatchLink({
-          url: `${import.meta.env.VITE_SERVER_URL}/trpc`,
+          url: "/trpc",
 
           // You can pass any HTTP headers you wish here
           // async headers() {
